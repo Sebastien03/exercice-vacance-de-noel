@@ -1,0 +1,54 @@
+p{
+	height: 300px;
+	width: 700px;
+}
+h2{
+	display: list-item;
+}
+span{
+	display: block;
+}
+nav{
+	display: flex;
+	flex-flow: column;
+	align-self: flex-start;
+}
+#photo{
+	width: 800px;
+	height: 600px;
+	text-align: center;
+	font-size: 40px;
+}
+#photo1{
+	float: right;
+}
+#photo2{
+	float: left;
+}
+#image1{
+	background-image: url("http://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/1/5/5/1557798396_80921_univers.jpg");
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 900px;
+	left: 900px;
+	z-index: 1;
+}
+#image2{
+	background-image: url("http://passeurdesciences.blog.lemonde.fr/files/2012/08/sombrero_spitzer_big.jpg");
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 800px;
+	left: 1000px;
+	z-index: 3;
+}
+#image3{
+	background-image: url("http://i.f1g.fr/media/ext/805x453/www.lefigaro.fr/medias/2013/12/24/PHOd2e9b634-6cb1-11e3-be48-29c753e12da0-805x453.jpg");
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 850px;
+	left:950px;
+	z-index: 2;
+}
