@@ -1,0 +1,31 @@
+#contener{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+nav{
+	order: 1;
+	flex: 0.5 1 auto;
+	align-self: stretch;
+	width: 200px;
+	background-color: red;
+	font-size: 20px;
+	height: 424px;
+}
+#boite2{
+	order: 2;
+	flex: 1 1 auto;
+	align-self: flex-start;
+	height: 150px;
+	width: 900px;
+	font-size: 20px;
+	text-align: center;
+	background-color: green;
+}
+article{
+	background-color: yellow;
+	height: 313px;
+	padding: 5px;
+}
